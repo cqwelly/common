@@ -1,1 +1,14 @@
-
+acora
+thrift
+simplejson
+pymongo
+sklearn
+mysql-python
+numpy
+scipy
+redis
+gensim
+happybase
+jieba
+pdfminer
+xlwt
