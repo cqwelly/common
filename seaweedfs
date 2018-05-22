@@ -1,0 +1,4 @@
+nohup ./weed master >> log/weed_master.log 2>&1 &
+nohup ./weed volume  -dir="/data1/weed_data/" -max=5 -mserver="localhost:9333" -port 9080 >> log/weed_valume.log 2>&1 &
+curl -X POST http://localhost:9333/dir/assign
+curl -X PUT -F file=@/Users/qianli/2017-08-30_1203897158.pdf http://127.0.0.1:9080/5,01157b05a8
